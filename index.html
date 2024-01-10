@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Expense tracker app</title>
 </head>
 <body>
-    
+    <label for="number">Amount:</label>
+    <input type="number" id="number" name="number">
+    <label for="des">Description:</label>
+    <input type="text" id="des" name="des">
+    <label for="category">Choose a category</label>
+    <select name="category" id="category">
+      <option value="fuel">fuel</option>
+      <option value="food">food</option>
+      <option value="electricity">electricity</option>
+      <option value="Movie">Movie</option>
+    </select> 
+    <input type="submit" value="Add Expenses" id="submitBtn">
+    <ul id="container">
+        
+    </ul>
+    <script src="main.js"></script>
 </body>
 </html>
